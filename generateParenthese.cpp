@@ -42,6 +42,8 @@ void genrateParantheses_helper(int n,int diff,vector<string>&comb,vector<vector<
         //time complexity O(n)=2T()
         //T(n)=2T(n-1)+1=2(2T(n-2)+1)+1=4T(n-2)+3
         //T(n)=4(2T(n-3)+1)+3=8T(n-3)+7=O(n*2^n)
+     //time Complexity O(n)=2^n
+     //space complexity 2^n*n
     }
 }
 int main()
